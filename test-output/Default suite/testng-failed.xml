@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.testclasses.ContactspageTest">
+      <class name="com.qa.testclasses.LoginPageTest">
         <methods>
-          <include name="ValidateCreatecontact"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
         </methods>
-      </class> <!-- com.qa.testclasses.ContactspageTest -->
+      </class> <!-- com.qa.testclasses.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
