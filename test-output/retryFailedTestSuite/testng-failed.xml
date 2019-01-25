@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [retryFailedTestSuite]">
+  <listeners>
+    <listener class-name="com.qa.retryfailedtestcase.MyTransformer"/>
+  </listeners>
+  <test name="Free CRM app test cases(failed)">
+    <classes>
+      <class name="com.qa.testclasses.ContactspageTest">
+        <methods>
+          <include name="selectsinglecontactTest"/>
+          <include name="selectMultiplecontactTest"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.qa.testclasses.ContactspageTest -->
+    </classes>
+  </test> <!-- Free CRM app test cases(failed) -->
+</suite> <!-- Failed suite [retryFailedTestSuite] -->

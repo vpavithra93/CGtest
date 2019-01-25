@@ -31,6 +31,10 @@ public void setUP() {
 		String title=loginpage.ValidateLoginPageTitle();
 		Assert.assertEquals(title,"#1 Free CRM software in the cloud for sales and service");
 	log.info("----------end of method----------");
+	log.warn("hey just a warning");
+	log.debug("just a debuh msg");
+	log.fatal("just a fatal");
+	
 	}
 	
 	

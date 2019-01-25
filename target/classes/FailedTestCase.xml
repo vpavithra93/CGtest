@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="retryFailedTestSuite">
+<listeners>
+<listener class-name="com.qa.retryfailedtestcase.MyTransformer" />
+</listeners>
+
+  <test name="Free CRM app test cases">
+    <classes>
+     
+       <class name="com.qa.testclasses.ContactspageTest"></class>
+    </classes>
+  </test> 
+</suite> 

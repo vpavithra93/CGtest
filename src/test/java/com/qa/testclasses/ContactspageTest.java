@@ -51,7 +51,7 @@ public class ContactspageTest extends TestBase {
 		Object data[][]= TestUtil.getTestData(sheetname);
 		return data;
 	}
-	@Test(dataProvider="getCRMTestData")
+	@Test(dataProvider="getCRMTestData", enabled=false)
    public void ValidateCreatecontact(String title, String ftname, String Ltname, String comp) {
 		homepage.clickonNewcontact();
 		//contactspage.createnewcontact("Miss", "pallavi", "v", "MNC");
